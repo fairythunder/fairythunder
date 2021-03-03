@@ -1,7 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta http-equiv="refresh" content="0; url=https://blog.fairythunder.com">
+<!--meta http-equiv="refresh" content="0; url=https://www.fairythunder.com"-->
 <script data-ad-client="ca-pub-0341133655205965" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script type="text/javascript">
+  function detectLanguage(){
+    var userLang = navigator.language || navigator.userLanguage;
+    if (userLang.startsWith("zh")) {
+      window.location.href = 'zh/index.html';
+    }
+    else {
+      window.location.href = 'en/index.html';
+    }
+  }
+</script>
 </head>
-<body>
+<body onload="detectLanguage()">
+  <h1>Loading</h1>
+</body>   
+</html>
