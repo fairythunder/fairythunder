@@ -14,8 +14,23 @@
     }
   }
 </script>
+<style>
+#loadingPage{
+    min-width: 100%;
+    min-height: 100%;
+    position:absolute;
+    left:0px;
+    top: 0px;
+    z-index:1;
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100vh;
+}
+</style>
 </head>
 <body onload="detectLanguage()">
-  <h1>Loading</h1>
+  <div id="loadingPage" ><h1>Loading...</h1></div>
 </body>   
 </html>
